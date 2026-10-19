@@ -17,11 +17,12 @@ Captura del programa funcionando: capturas/reto2.png
 ## Reto 3 · Depuración del error lógico
 | Variable | Valor esperado | Valor real |
 |----------|----------------|------------|
-| descuento |               |            |
-| total     |               |            |
-- Línea del error y explicación:
-- Corrección:
-- Mi propia prueba (producto, precio, cantidad, socio → total):
+| descuento |    30.00      |   10.00    |
+| total     |    205.70     |   229.90   |
+- Línea del error y explicación: Línea 27. Se usa descuento = base * 0.05;, que sobrescribe el 10 % calculado antes en lugar de sumarle el 5 % de socio.
+- Corrección: descuento += base * 0.05;
+- Mi propia prueba (producto, precio, cantidad, socio → total): Mesa, 40, 3, s → base 120, descuento 18.00, total 123.42 €
+Captura del depurador: capturas/reto3.png
 Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
