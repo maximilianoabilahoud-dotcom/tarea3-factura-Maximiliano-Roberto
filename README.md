@@ -27,8 +27,15 @@ Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
 - Métodos creados y para qué sirve cada uno:
+    'calcularBase(double precio, int cantidad)': Calcula el importe base multiplicando el precio por         la cantidad
+    'calcularDescuento'(double base, double descuento)':Agrupa la logica para acumular los descuentos
+    'calcularTotal(double base,. duble descuento)': Aplica el porcentaje del IVSA (21%) sobre la base ya descontada
+
 - ¿Qué ventaja tiene frente al código anterior?
+    Facilidad de hacer tareas: Divide un proble grande en partes pequeñas y faciles de entender
+    Estabilidad: Si cambion las reglas de los descuentos o impuestos, solo se modifica el codigo dentro de su respectivo metodo
+    Limpieza: El metodo 'main' queda ordenado y limpio 
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
-- Caso A (web de la tienda): Interpretado (JavaScript). Por tipo de proyecto, es el lenguaje que entienden los navegadores, y por portabilidad funciona en cualquier dispositivo sin instalar nada.
-- Caso B (propuesta en ensamblador): No. Por portabilidad, el ensamblador depende del procesador y no iría en cualquier ordenador. Por rendimiento, no se notaría la mejora, y el coste de desarrollo sería mucho mayor. así que mejor seguir con Java.
+- Caso A (web de la tienda):
+- Caso B (propuesta en ensamblador):
