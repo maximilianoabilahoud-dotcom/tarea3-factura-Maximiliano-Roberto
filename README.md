@@ -30,5 +30,5 @@ Captura del depurador: capturas/reto3.png
 - ¿Qué ventaja tiene frente al código anterior?
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
-- Caso A (web de la tienda):
-- Caso B (propuesta en ensamblador):
+- Caso A (web de la tienda): Interpretado (JavaScript). Por tipo de proyecto, es el lenguaje que entienden los navegadores, y por portabilidad funciona en cualquier dispositivo sin instalar nada.
+- Caso B (propuesta en ensamblador): No. Por portabilidad, el ensamblador depende del procesador y no iría en cualquier ordenador. Por rendimiento, no se notaría la mejora, y el coste de desarrollo sería mucho mayor. así que mejor seguir con Java.
